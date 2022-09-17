@@ -23,10 +23,11 @@ input{
   display: block;
 font-size: 2rem;
 font-weight: 400;
-letter-spacing:1rem;
+/* letter-spacing:1rem; */
 }
 .paragraph{
   margin: 1rem;
+  font-size: 1.3rem;
 }
 
 label{
@@ -50,8 +51,8 @@ th {
   font-size: 1rem;
 }
 td {
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: .9rem;
+  padding: .3rem;
 }
 
 caption,
@@ -60,4 +61,10 @@ th {
   border: 2px solid black;
   border-width: 2px;
   border-radius: 2px;
+  /* max-width: 100px; */
+  /* max-width: 80vw; */
+}
+.table-change{
+  max-width: auto;
+  
 }
